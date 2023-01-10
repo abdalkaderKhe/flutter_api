@@ -1,0 +1,19 @@
+{
+  "api":
+  {
+    "status" : "production",
+    "baseurl" :
+    {
+      "production" : "https://jsonplaceholder.typicode.com",
+      "local" : "https://localhost/",
+      "staging" : "https://staging.jsonplaceholder.typicode.com"
+    },
+    "prefix" : ""
+  },
+
+  "resources":
+  {
+    "Todos" : "/todos"
+  }
+
+}
